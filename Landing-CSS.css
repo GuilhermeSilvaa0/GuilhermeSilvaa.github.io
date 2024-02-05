@@ -1,0 +1,182 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    line-height: 1.5;
+
+}
+
+.welcome
+{
+    background-image: linear-gradient(115deg,
+    rgba(0, 0, 0, 0.794),
+    rgba(98, 98, 100, 0.394)),
+    url(https://static.pexels.com/photos/248515/pexels-photo-248515.png);
+    height: 400px;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.div-welcome
+{
+    padding: 50px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.btn
+{
+    color: #fff;
+    text-decoration: none;
+    background: #333;
+    border: 1px solid #333;
+    padding: 1em 2em;
+    display: inline-block;
+}
+
+.btn:hover 
+{
+    background: #eaeaea;
+    color: #333;
+    transition: 0.5s;
+}
+
+.application
+{
+    background: #eaeaea;
+    color: black;
+    padding: 20px;   
+    font-size: 20px;
+    text-align: center;
+}
+
+.app2
+{
+    display: flex;
+}
+
+.p1, .p2
+{
+    padding: 20px;
+}
+
+img
+{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.part1 ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#section-b 
+{
+    padding: 2em 1em 1em;
+    font-size: 20px;
+}
+
+.card-content 
+{
+    padding: 1.5em;
+}
+
+#section-b ul 
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#section-b li 
+{
+    margin-bottom: 1em;
+    background: #fff; 
+    color: #333;
+    width: 31%;
+}
+
+
+.part2
+{
+    background-color: #fff;
+    color: #333;
+    padding: 4vw;
+    font-size: 20px;
+}
+
+.part3
+{
+    display: flex; 
+}
+
+.contatact
+{
+    background-color: #2690d4;
+    padding: 5vw;
+    font-size: 20px
+}
+
+.company
+{
+    padding: 5vw;
+    font-size: 20px;
+}
+
+footer
+{
+    background-color: black;
+    text-align: center;
+    padding: 2%;
+}
+
+@media (max-width: 1050px)
+{
+    
+    #section-b ul 
+    {
+        display: table;
+        justify-content: space-around;
+    }
+    
+    #section-b li 
+    {
+        margin-bottom: 1em;
+        background: #fff; 
+        color: #333;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+     .part3
+    {
+        display: table; 
+    }
+
+    .div-welcome
+    {
+        padding: 15px;
+    }
+
+}
+
+
+@media (max-width: 950px)
+{
+    #section-b li 
+    {
+        margin-bottom: 1em;
+        background: #fff; 
+        color: #333;
+        width: 100%;
+        margin-left: 0%;
+    }
+}
